@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden{
+	display: none;
+}
+
+body{
+	font-family: arial; /*Did not need to link @font-face or google fonts! Every system should have arial*/
+}
+
+h1{
+	font-size: 48pt;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 54pt;
+	font-weight: bold;
+}
+
+#introH1{
+	position: relative;
+	left: -13px;
+	letter-spacing: -7px;
+}
+#intro{
+	font-size: 30pt;
+	letter-spacing: -4px;
+	line-height: 36px;
+}
+
+#listH1{
+	letter-spacing: -7px;
+	text-align: center;
+}
+
+#list{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30pt;
+	margin-top: 80px;
+	letter-spacing: 6px;
+}
+
+#list span{
+	font-weight: bold;
+}
+
+#list:first-letter{
+	font-size: 36pt;
+}
+
+#handsH2{
+	letter-spacing: -7px;
+	text-align: right;
+}
+
+#hands{
+	text-align: right;
+	font-size: 42pt;
+	letter-spacing: -4px;
+	line-height: 52px;
+	margin-top: -11px;
+}
+
+#troutH2{
+	text-transform: uppercase;
+	letter-spacing: 29px;
+	text-align: center;
+}
+
+.red{
+	color: red;
+}
+
+.pink{
+	color: hotpink;
+}
+
+.purple{
+	color: purple;
+}
+
+.blue{
+	color: blue;
+}
+
+.lBlue{
+	color: skyblue;
+}
+
+.green{
+	color: lime;
+}
+
+.yellow{
+	color: yellow;
+}
+
+#trout p{
+	font-size: 28pt;
+	letter-spacing: -3px;
+	line-height: 30px;
+}
+
+#pContainer{
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#leftP{
+
+	width: 600px;
+	
+}
+
+#rightP{
+	width: 380px;
+	text-align: right;
+	
+}
+
+#leftP p{
+	display: inline-flex;
+}
+
+#rightP p{
+	display: inline-flex;
+}
+
+#source{
+	margin-top: 15px;
+}
+
+#siteContainer{
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 5px 10px 9px #dddddd;
+}
+
+section{
+	margin-top: 80px;
+}
