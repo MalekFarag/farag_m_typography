@@ -6,7 +6,7 @@
 }
 
 body{
-	font-family: arial; /*Did not need to link @font-face or google fonts! Every system should have arial*/
+	font-family: lato, arial, sans; 
 }
 
 h1{
@@ -22,12 +22,12 @@ h2{
 #introH1{
 	position: relative;
 	left: -13px;
-	letter-spacing: -7px;
+	letter-spacing: -6px;
 }
 #intro{
 	font-size: 30pt;
 	letter-spacing: -4px;
-	line-height: 36px;
+	line-height: 33px;
 }
 
 #listH1{
@@ -40,7 +40,7 @@ h2{
 	text-transform: uppercase;
 	font-size: 30pt;
 	margin-top: 80px;
-	letter-spacing: 6px;
+	letter-spacing: 4px;
 }
 
 #list span{
@@ -52,8 +52,9 @@ h2{
 }
 
 #handsH2{
-	letter-spacing: -7px;
+	letter-spacing: -6px;
 	text-align: right;
+	margin-right: 5px;
 }
 
 #hands{
@@ -66,7 +67,7 @@ h2{
 
 #troutH2{
 	text-transform: uppercase;
-	letter-spacing: 29px;
+	letter-spacing: 30px;
 	text-align: center;
 }
 
